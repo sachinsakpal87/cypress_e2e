@@ -1,0 +1,28 @@
+{
+  "name": "cypress_e2e",
+  "version": "1.0.0",
+  "description": "CYPRESS E2E PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinsakpal87/cypress_e2e.git"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "SACHIN SAKPAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachinsakpal87/cypress_e2e/issues"
+  },
+  "homepage": "https://github.com/sachinsakpal87/cypress_e2e#readme",
+  "dependencies": {
+    "cypress": "^5.0.0",
+    "prettier": "^2.1.1"
+  }
+}

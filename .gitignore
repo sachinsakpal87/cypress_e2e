@@ -1,0 +1,8 @@
+/.idea/
+/cypress_testing_project.iml
+/package-lock.json
+/cypress/videos/
+/cypress/screenshots/
+/cypress/.DS_Store
+.DS_Store
+node_modules/
