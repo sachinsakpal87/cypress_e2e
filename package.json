@@ -6,7 +6,11 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:dashboard": "cypress run --record --key 5a6826c9-1753-4693-beea-a1394d8c5156"
+    "cy:run:chrome" : "cypress run --browser chrome",
+    "cy:run:firefox" : "cypress run --browser firefox",
+    "cy:run:electron" : "cypress run --browser electron",
+    "cy:dashboard": "cypress run --record --key 5a6826c9-1753-4693-beea-a1394d8c5156",
+    "start-jenkins-server" : "java -jar jenkins.war -httpPort=8080 --enable-future-java"
   },
   "repository": {
     "type": "git",
